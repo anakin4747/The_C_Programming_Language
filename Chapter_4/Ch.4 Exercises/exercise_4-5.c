@@ -35,8 +35,13 @@ int main(int argc, char *argv[]){
 	prompt_variables();
 	current_variable_index = collect_var_values();
 	print_vars();
-	fflush(stdin);
 
+	fflush(stdin); 
+	/*	Similar in the buffer of getch and ungetch
+		getchar() also has a buffer which needs to be cleared
+		or else it will stay in the way. A \n would hang in the buffer after
+	
+	*/
 	while((type = getop(s)) != EOF){	// While not the end of the file
 		switch(type){
 			case NUMBER:	// If getop() returned '0'
