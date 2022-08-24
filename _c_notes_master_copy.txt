@@ -6,13 +6,13 @@ Chapter 1
 1-2 **** - Too easy
 	F-C_converter_example.c
 1-3 Done
-1-4 Done	
+1-4 Done
 	F-C table with for loop.c
 1-5 Done - Fahreinheit converter
 	copy input to output.c
 	copy_input_to_output_2nd_ver.c
-1-6 **** - Too Easy 
-1-7 Done - Too Easy - Print value of EOF 
+1-6 **** - Too Easy
+1-7 Done - Too Easy - Print value of EOF
 	char_counter_while.c
 	char_counter_for.c
 	line_counting.c
@@ -79,4 +79,42 @@ Chapter 4
 	polish_calculator_example_main.c
 4-3 Done - polish calculator with modulo and negative numbers
 4-4 Done - calc with peak(), copy, swap, and clear
+4-5 Done - Added sin, exp, and pow
+4-6 Done - Added variables
+4-7 Done - Added ungets()
+4-8 Done - ungetch now only allows one char
+4-9 **** - Handle EOF pushback correctly
+4-10 **** - Use getline()
+4-11 **** - Confused about how it would use an internal buffer that would oboslete only ungetch and not getch
+	recursive_printd.c
+4-12 Done - Recursive itoa function
+4-13 **** - Recursive string reverse
+4-14 Done - Macro defined swap function
 
+
+Chapter 5
+	getint_example.c
+5-1 - Done - getint with +-
+5-2 - Done - getfloat
+	strlen_example.c
+	alloc_example.c
+	strlen_example_2.c
+	strcpy_example.c
+	strcmp_example.c
+5-3 - Done - strcat
+5-4 - Done - strend
+5-5 - Done - strncpy, strncat, and strncmp
+5-6.1 - Done - Redo getline with pointers
+5-6.2 - Done - Redo atoi with pointers
+5-6.3 - **** - itoa with pointers
+5-6.4 - **** - reverse with pointers
+5-6.5 - Done - strindex with pointers
+5-6.6 - **** - getop with pointers
+	sort_ptrs_2_ptrs.c
+5-7 - Done on work computer - Rewrite Readlines without malloc
+    day_month_year_conversions.c
+5-8 - Done on work computer - Add error checking to day_month_year_conversions.c
+    month_name.c
+5-9 - Done - Rewrite day_month_year_conversions.c with pointers
+    echo.c
+    find.c

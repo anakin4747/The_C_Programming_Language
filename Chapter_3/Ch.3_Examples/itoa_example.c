@@ -4,7 +4,7 @@
 
 #define SIZE 40
 
-char * itoa(int n, char s[]);
+char *itoa(int n, char s[]);
 
 int main(int argc, char *argv[]){
 	char s[SIZE];
@@ -13,7 +13,7 @@ int main(int argc, char *argv[]){
 	return 0;
 }
 
-char * itoa(int n, char s[]){
+char *itoa(int n, char s[]){
 	int i, sign;	
 
 	if((sign = n) < 0) // If n is negative 
